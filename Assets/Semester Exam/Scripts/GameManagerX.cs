@@ -41,10 +41,6 @@ public class GameManagerX : MonoBehaviour
         {
             time -= Time.deltaTime;
             Debug.Log("TimeTest: " + Mathf.RoundToInt(time));
-            
-            
-             
-            Debug.Log("Time: " + time);
             timeText.text = "Time: " + Mathf.RoundToInt(time);
 
         }
